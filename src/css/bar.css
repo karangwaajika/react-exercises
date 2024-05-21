@@ -1,0 +1,20 @@
+.bars{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    
+}
+.container{
+    display: flex;
+    width: 100%;
+    gap: 0.3rem;
+}
+
+.name{
+    width: 200px;
+}
+
+.bar{
+    flex-grow: 1;
+    display: flex;
+}
