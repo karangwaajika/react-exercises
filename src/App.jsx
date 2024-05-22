@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Hexa from './HexaColor'
-import Block from './Number'
-import Bars from './Bar'
+import Hexa from './components/HexaColor'
+import Block from './components/Number'
+import Bars from './components/Bar'
+import Increment from './components/Increment'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hexa />
       <Block />
       <Bars />
+      <Increment />
     </div>
   )
 }

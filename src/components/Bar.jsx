@@ -1,5 +1,5 @@
-import "./css/bar.css";
-import { tenHighestPopulation } from "./assets/population";
+import "../css/bar.css";
+import { tenHighestPopulation } from "../assets/population";
 
 const addComma = (nbr) => {
   const nbrString = nbr.toString().split("").reverse();

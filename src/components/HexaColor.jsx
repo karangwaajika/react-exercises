@@ -22,6 +22,7 @@ const Hexa = () => {
   return (
     <main>
       <h1 style={{fontWeight: 200}}>Hexadecimal Color</h1>
+      <p>Generating a random Hexadecimal color</p>
       <div style={deco}>
         {arr.map((item) => (
           <div style={{ backgroundColor: hexColor() }}>{hexColor()}</div>

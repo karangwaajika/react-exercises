@@ -43,7 +43,7 @@ const Block = () => {
   return (
     <main>
       <h1 style={{ fontWeight: 200 }}>Number Generator</h1>
-
+      <p>Generate even number in green, odd in yellow and prime in red</p>
       <div style={deco}>
         {myList.map((nbr) => (
           <div

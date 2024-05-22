@@ -1,0 +1,22 @@
+h1 {
+  font-weight: 200;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+button {
+  width: 200px;
+  background-color: rgb(186, 203, 211);
+  padding: 5px;
+  border: 1px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+button:active {
+  border: 1px solid green;
+}
