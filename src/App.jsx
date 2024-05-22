@@ -5,6 +5,7 @@ import Hexa from './components/HexaColor'
 import Block from './components/Number'
 import Bars from './components/Bar'
 import Increment from './components/Increment'
+import Country from './components/Country'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Block />
       <Bars />
       <Increment />
+      <Country />
     </div>
   )
 }
