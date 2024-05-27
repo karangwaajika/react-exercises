@@ -8,6 +8,7 @@ import Increment from './components/Increment'
 import Country from './components/Country'
 import LoadingCountry from './components/LoadingCountry'
 import ColorPicker from './components/ColorPicker'
+import UpdateObject from './components/UpdateObject'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Country />
       <LoadingCountry />
       <ColorPicker />
+      <UpdateObject />
     </div>
   )
 }
