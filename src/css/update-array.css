@@ -1,0 +1,29 @@
+.card-list{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+}
+
+.card-list ul{
+    list-style: none;
+}
+
+.card-list li {
+    background-color: rgb(238, 222, 222);
+    border-bottom: 1px solid ;
+    cursor: pointer;
+}
+
+.source{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.source input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}

@@ -9,6 +9,7 @@ import Country from './components/Country'
 import LoadingCountry from './components/LoadingCountry'
 import ColorPicker from './components/ColorPicker'
 import UpdateObject from './components/UpdateObject'
+import UpdateArray from './components/UpdateArray'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <LoadingCountry />
       <ColorPicker />
       <UpdateObject />
+      <UpdateArray />
     </div>
   )
 }
