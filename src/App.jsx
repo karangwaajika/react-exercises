@@ -6,6 +6,7 @@ import Block from './components/Number'
 import Bars from './components/Bar'
 import Increment from './components/Increment'
 import Country from './components/Country'
+import LoadingCountry from './components/LoadingCountry'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Bars />
       <Increment />
       <Country />
+      <LoadingCountry />
     </div>
   )
 }
