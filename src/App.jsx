@@ -7,6 +7,7 @@ import Bars from './components/Bar'
 import Increment from './components/Increment'
 import Country from './components/Country'
 import LoadingCountry from './components/LoadingCountry'
+import ColorPicker from './components/ColorPicker'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Increment />
       <Country />
       <LoadingCountry />
+      <ColorPicker />
     </div>
   )
 }
