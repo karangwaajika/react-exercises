@@ -1,0 +1,67 @@
+.task{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 2px 2px 4px 4px rgb(228, 225, 231);
+    border-radius: 5px;
+    padding: 10px;
+}
+.top{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.task button{
+    padding: 8px;
+}
+
+.task .top input{
+    width: 200px;
+    border: 1px solid rgb(153, 158, 160);
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 20;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin:auto;
+    gap: 0.2rem;
+}
+
+.todo-list li{
+    background-color: rgb(238, 222, 222);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    
+}
+
+li .btns{
+    display: flex;
+    justify-content: space-around;
+}
+li button{
+    width: 50px;
+}
+
+li .remove{
+    background-color: red;
+    color: white;
+}
+li .done{
+    background-color: green;
+    color: white;
+}
+li i{
+    cursor: pointer;
+}
+.linethrough{
+    text-decoration: line-through ;
+}

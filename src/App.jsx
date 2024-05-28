@@ -10,6 +10,7 @@ import LoadingCountry from './components/LoadingCountry'
 import ColorPicker from './components/ColorPicker'
 import UpdateObject from './components/UpdateObject'
 import UpdateArray from './components/UpdateArray'
+import ToDo from './components/ToDo'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <ColorPicker />
       <UpdateObject />
       <UpdateArray />
+      <ToDo />
     </div>
   )
 }
