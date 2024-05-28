@@ -11,6 +11,7 @@ import ColorPicker from './components/ColorPicker'
 import UpdateObject from './components/UpdateObject'
 import UpdateArray from './components/UpdateArray'
 import ToDo from './components/ToDo'
+import Form from './components/FormValidation'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <UpdateObject />
       <UpdateArray />
       <ToDo />
+      <Form />
     </div>
   )
 }

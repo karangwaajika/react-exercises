@@ -1,0 +1,32 @@
+.card{
+    margin: auto;
+    width: 600px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+form .input{
+    display: flex;
+    gap: 0.2rem;
+}
+
+.input label{
+    width: 180px;
+}
+.input button{
+    flex-grow: 1;
+}
+
+.input input{
+    width: 200px;
+    border: 1px solid rgb(153, 158, 160);
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 20;
+}
+.input span{
+    color:red;
+}
