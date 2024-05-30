@@ -13,6 +13,7 @@ import UpdateArray from './components/UpdateArray'
 import ToDo from './components/ToDo'
 import Form from './components/FormValidation'
 import Clock from './components/DigitalClock'
+import ApiUser from './components/ApiUser'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <ToDo />
       <Form />
       <Clock />
+      <ApiUser />
     </div>
   )
 }
