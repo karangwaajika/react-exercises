@@ -12,6 +12,7 @@ import UpdateObject from './components/UpdateObject'
 import UpdateArray from './components/UpdateArray'
 import ToDo from './components/ToDo'
 import Form from './components/FormValidation'
+import Clock from './components/DigitalClock'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <UpdateArray />
       <ToDo />
       <Form />
+      <Clock />
     </div>
   )
 }
