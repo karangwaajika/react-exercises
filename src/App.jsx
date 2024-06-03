@@ -16,6 +16,7 @@ import Clock from './components/DigitalClock'
 import ApiUser from './components/ApiUser'
 import Times from './components/Times'
 import Previous from './components/Previous'
+import StopWatch from './components/StopWatch'
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
       <ApiUser />
       <Times />
       <Previous />
+      <StopWatch />
     </div>
   )
 }

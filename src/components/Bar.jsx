@@ -38,8 +38,8 @@ const Bars = () => {
       <h1 style={{fontWeight:200}}>Statistics</h1>
       <p>Made the following bar group using the given <a href="https://github.com/Asabeneh/30-Days-Of-React/blob/master/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/data/ten_most_highest_populations.js" style={{fontWeight:"bold",color:"black"}}>data</a> </p>
       <div className="bars">
-        {tenHighestPopulation.map((country) => (
-          <Bar country={country} totPopulation={totPopulation} />
+        {tenHighestPopulation.map((country, i) => (
+          <Bar key={i} country={country} totPopulation={totPopulation} />
         ))}
       </div>
     </div>
