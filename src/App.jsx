@@ -15,6 +15,7 @@ import Form from './components/FormValidation'
 import Clock from './components/DigitalClock'
 import ApiUser from './components/ApiUser'
 import Times from './components/Times'
+import Previous from './components/Previous'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <Clock />
       <ApiUser />
       <Times />
+      <Previous />
     </div>
   )
 }
