@@ -14,6 +14,7 @@ import ToDo from './components/ToDo'
 import Form from './components/FormValidation'
 import Clock from './components/DigitalClock'
 import ApiUser from './components/ApiUser'
+import Times from './components/Times'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <Form />
       <Clock />
       <ApiUser />
+      <Times />
     </div>
   )
 }
